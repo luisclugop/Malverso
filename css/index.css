@@ -11,3 +11,15 @@ a{
 ul{
     list-style-type: none;
 }
+
+.tittleMalverso {
+    color: #000;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.hrMalverso {
+	border-top: 1px solid rgb(202, 202, 202);
+}

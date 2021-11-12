@@ -1,0 +1,216 @@
+/* Caruousel */
+
+.malversoCarousel {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imgMalversoCarousel{
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .imgMalversoCarousel{
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .imgMalversoCarousel{
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .imgMalversoCarousel{
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .imgMalversoCarousel{
+        height: 450px;
+        object-fit: cover;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .imgMalversoCarousel{
+        height: 500px;
+        object-fit: cover;
+    }
+}
+
+/* Caruousel */
+
+/* submenuCategorias */
+
+.submenuCategorias {
+    background-color: #fff;
+    padding: 15px;
+    height: auto;
+}
+
+.submenuCategorias a{
+    text-decoration: none;
+}
+
+.submenuCategorias .cardCategorias{
+    margin: 20px;
+    height: 250px;
+    width: auto;
+    background: none;
+    border-radius: 15px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: .6s transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.submenuCategorias .cardCategorias:hover{
+    transform: scale(1.05);
+}
+
+.submenuCategorias .cardCategorias .tittleCategorias{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.submenuCategorias .cardRemeras{
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-image:url(../img/Imagen5.jpg);
+    background-size: cover;
+}
+
+.submenuCategorias .cardShorts{
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-image:url(../img/Imagen6.jpg);
+    background-size: cover;
+}
+
+.submenuCategorias .cardPantalones{
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-image:url(../img/Imagen4.jpg);
+    background-size: cover;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .submenuCategorias .cardCategorias{
+        height: 200px;
+    }
+
+    .submenuCategorias .cardCategorias .tittleCategorias{
+        font-size: 25px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .submenuCategorias .cardCategorias{
+        height: 220px;
+    }
+
+    .submenuCategorias .cardCategorias .tittleCategorias{
+        font-size: 25px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .submenuCategorias .cardCategorias{
+        height: 250px;
+    }
+
+    .submenuCategorias .cardCategorias .tittleCategorias{
+        font-size: 25px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .submenuCategorias .cardCategorias{
+        height: 250px;
+    }
+
+    .submenuCategorias .cardCategorias .tittleCategorias{
+        font-size: 30px;
+    }
+}
+
+/* submenuCategorias */
+
+/* metodosMalverso */
+
+.metodosMalverso{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    padding: 15px;
+    height: auto;
+    margin: 0;
+}
+
+.metodosMalverso .fa{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.metodosMalverso .textMetodos{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .metodosMalverso .textMetodos{
+        font-size: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .metodosMalverso .textMetodos{
+        font-size: 12px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .metodosMalverso .textMetodos{
+        font-size: 15px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .metodosMalverso .textMetodos{
+        font-size: 18px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .metodosMalverso .textMetodos{
+        font-size: 20px;
+    }
+}
+
+/* metodosMalverso */
