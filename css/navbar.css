@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
 .malverso {
     font-family: 'Bebas Neue', cursive;
@@ -113,7 +112,7 @@ nav {
 }
 
 
-/* Mobile */ 
+/* Mobile  navbar*/ 
 @media (max-width: 613px) {
     .malverso {
         display: none;
@@ -126,4 +125,116 @@ nav {
     .listOf{
         margin-top: 30px;
     }
+}
+
+/* Footer */
+
+#footer {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 60px;
+    height: 499px;
+    flex-wrap: wrap;
+    
+
+}
+
+.footerLeft{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.brand {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    line-height: 100%;
+}
+
+.direccion {
+    font-size: 16px;
+}
+
+.footerMiddle, .footerRight {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footerRight{
+    padding-right: 300px;
+}
+
+
+.footerTitle {
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 40px;
+}
+
+.icons2{
+    display:none;
+}
+
+
+
+/* Mobile  footer*/ 
+
+@media (max-width: 613px) {
+   #footer {
+       height: 140px;
+       padding: 10px;
+   }
+
+   .brand{
+       font-size: 25px;
+   }
+
+   .direccion {
+       font-size: 10px;
+   }
+
+   .footerMiddle, .footerRight {
+        font-size: 12px; 
+   }
+   .footerRight {
+        padding-right: 0px;
+    }
+
+    .icon {
+        height: 30px;
+    } 
+    .icons{
+        display: none;
+    }
+
+    .icons2 {
+        display: flex;
+        flex-direction: row;
+        width: 160px;
+        align-items: center;
+    }
+
+    .fa-facebook-official{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
 }
