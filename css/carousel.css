@@ -84,11 +84,11 @@
 }
 
 .submenuCategorias .cardCategorias .tittleCategorias{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 36px;
     color: #000;
-    text-transform: uppercase;
+    line-height: 43px;
 }
 
 .submenuCategorias .cardRemeras{
