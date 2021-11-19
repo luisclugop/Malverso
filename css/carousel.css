@@ -61,7 +61,7 @@
     height: auto;
 }
 
-.submenuCategorias a{
+.submenuCategorias a:hover{
     text-decoration: none;
 }
 
@@ -85,8 +85,8 @@
 
 .submenuCategorias .cardCategorias .tittleCategorias{
     font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 43px;
     color: #000;
     line-height: 43px;
 }
@@ -96,6 +96,7 @@
     background-position: center center;
     background-image:url(../img/Imagen5.jpg);
     background-size: cover;
+    
 }
 
 .submenuCategorias .cardShorts{
@@ -152,7 +153,7 @@
     }
 
     .submenuCategorias .cardCategorias .tittleCategorias{
-        font-size: 30px;
+        font-size: 43px;
     }
 }
 
