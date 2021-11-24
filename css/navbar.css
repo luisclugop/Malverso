@@ -1,11 +1,13 @@
+/* Navbar */
 
 .malverso {
     font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 45px;
     color: black;
     padding-bottom: 0;
     display: block;
+    padding-right: 70px;
     
 }
 
@@ -138,8 +140,6 @@ nav {
     padding: 60px;
     height: 499px;
     flex-wrap: wrap;
-    
-
 }
 
 .footerLeft{
@@ -166,18 +166,28 @@ nav {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+   
+}
+
+.footerMiddle a, .footerRight a {
+    color: white;
+    
+}
+
+.footerMiddle a:hover, .footerRight a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .footerRight{
     padding-right: 300px;
 }
 
-
 .footerTitle {
     font-weight: bold;
 }
 
-.icons {
+.icons, .icons3 {
     display: flex;
     flex-direction: row;
     width: 160px;
@@ -185,7 +195,7 @@ nav {
     justify-content: space-between;
 }
 
-.icon {
+.icon, .tiktok {
     height: 40px;
 }
 
@@ -194,10 +204,9 @@ nav {
 }
 
 
-
 /* Mobile  footer*/ 
 
-@media (max-width: 613px) {
+@media (max-width: 1024px) {
    #footer {
        height: 140px;
        padding: 10px;
@@ -237,4 +246,186 @@ nav {
         padding-left: 10px;
     }
 
+}
+
+/* Como comprar */
+
+.title1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 73px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 62px;
+}
+
+.welcomeCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.welcomeInnerCont {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    align-items: center;
+    padding: 16px;
+}
+
+.paragraph {
+    color: #000000;
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 30px;
+}
+
+.paragraph, .paragraph2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.welcome {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.local {
+    width: 570px;
+    height: 411px;
+    padding: 16px;
+}
+
+.bcrumb {
+    display: flex;
+    justify-content: center;
+}
+
+.breadcrumb-item {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+}
+.breadcrumb-item a {
+    color: black;
+}
+
+.threeIcons {
+    height: 90px;
+}
+
+@media (max-width: 1024px) {
+    .paragraph {
+        text-align: left;
+        font-size: 16px;
+        line-height: 18px;
+        
+      
+    }
+
+    .title1 {
+        font-size: 43px;
+        padding-bottom: 16px;
+    }
+
+    .breadcrumb-item {
+        font-size: 14px;
+    }
+
+    .welcomeCont{
+        flex-direction: column;
+    }
+
+    .local {
+        width: 300px;
+        height: 250px;
+
+    }
+
+    .paragraph, .paragraph2 {
+        font-size: 16px;
+        padding: 16px;
+    }
+
+    .welcomeInnerCont {
+        width: auto;
+    }
+
+}
+
+
+/* Contacto */
+
+.escribinos {
+    color: white;
+    background-color: #118AB2;
+    width: 159px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.whatsapp {
+    padding: 16px;
+}
+
+.whatMail {
+    padding: 64px;
+} 
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    
+}
+
+.mail img, .whatMail img, .location i {
+    padding-right: 20px;
+
+}
+
+.icons3 {
+    padding-top: 60px;
+}
+
+
+.location {
+    display: flex;
+    flex-direction: column;
+}
+
+.locationInner {
+    display: flex;
+    flex-direction: row;
+    padding-top: 36px;
+    padding: 16px;
+}
+
+.mail p, .whatsapp, .locationInner p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+    .location img {
+        width: 370px;
+    }
+
+    .mail p, .whatsapp, .locationInner p {
+        font-size: 16px;
+    
+    }
+    .mail img, .whatMail img, .location i {
+        padding-right: 10px;
+    
+    }
 }
