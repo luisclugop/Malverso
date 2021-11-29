@@ -1,0 +1,81 @@
+.producto {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.prodImg {
+    width: 677px;
+    height: 602px;
+    object-fit:cover;
+}
+
+.prodDes {
+    padding-left: 40px;
+}
+.producto h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 73px;
+}
+
+.producto h2 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.producto p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;   
+}
+
+.producto p img {
+    width: 24px;
+}
+
+.producto button {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px; 
+    background: #118AB2;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.envio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+}
+.gratis {
+    color: #118AB2;
+    font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+    .prodImg {
+        width: 379px;
+        height: 337px;
+    }
+
+    .producto {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .producto h1 {
+        font-size: 45px;
+    }
+    .producto h2 {
+        font-size: 20px;
+    }
+
+    .envio {
+        width: 300px;
+    }
+}
